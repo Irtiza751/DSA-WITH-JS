@@ -1,0 +1,24 @@
+{
+  "name": "dsa-with-js",
+  "version": "1.0.0",
+  "description": "Data structures &amp; Algorithms using JavaScript with explanation",
+  "main": "index.js",
+  "scripts": {
+    "compile": "ts-node ./Arrays/arrays.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Irtiza751/DSA-WITH-JS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Irtiza751/DSA-WITH-JS/issues"
+  },
+  "homepage": "https://github.com/Irtiza751/DSA-WITH-JS#readme",
+  "dependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.3"
+  }
+}

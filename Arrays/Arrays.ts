@@ -1,14 +1,11 @@
 /**
 * @Arrays 
-* Create a custom Array data structure with functions
-* 1. addItem() // add
-* 2. deleteItem() // delete
-* 3. getItem() // get
-* 4. updateItem() // update
+* A data structures that store collection of similar data/values/elements.
+* It start from the 0 index up to n where each index contain a single data/values/elements.
 */
 
 
-class MyArray<T> {
+class CustomArray<T> {
   private array: { [key: string]: T } = {};
   private length = 0;
 
@@ -32,7 +29,7 @@ class MyArray<T> {
   }
 
   // get the item of provided index
-  getItem(index: number) {
+  getItem(index: number): T {
     return this.array[index];
   }
 
@@ -44,7 +41,7 @@ class MyArray<T> {
 }
 
 
-const myArray = new MyArray<string>();
+const myArray = new CustomArray<string>();
 
 myArray
   .pushItem("Apple 1")

@@ -4,7 +4,7 @@
   "description": "Data structures &amp; Algorithms using JavaScript with explanation",
   "main": "index.js",
   "scripts": {
-    "compile": "ts-node ./Arrays/arrays.ts"
+    "compile": "ts-node ./HashTables/HashTables.ts"
   },
   "repository": {
     "type": "git",

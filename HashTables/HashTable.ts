@@ -9,6 +9,7 @@ class HashTable<T> {
     private data: any;
 
     constructor(size: number) {
+        // filling zeros to visualize the empty hash table of size N.
         this.data = new Array(size).fill(0);
     }
 
